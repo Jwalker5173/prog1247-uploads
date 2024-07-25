@@ -1,0 +1,145 @@
+/* Name:Jessica Walker  Student #:8705173  */
+
+html{
+  /*Basic website backgroud styling*/
+    font : normal normal normal 20px/1.7 Arial, Helvetica, sans-serif;  
+    color : black;
+    background-color : rgb(206, 239, 255);
+}
+
+/* the next lines are for positional, alignment, float and general boarders */
+body{
+  max-width : 1800px;
+  width : 95%;
+  height : 100%;
+  margin : auto;
+}
+header, main, aside, footer{
+  margin : 2%;
+  padding : 2%;
+}
+ header{
+  background-image: linear-gradient(rgba(255, 0, 0, 0.842) 5%, white 66.6%,blue 100%);
+}
+ main{
+  width : 60%;
+  float : left;
+  background-color: rgb(255, 255, 247);
+  border-top : 2rem double rgb(158, 10, 10);
+  border-right : 1rem double rgb(158, 10, 10);
+  border-left : 1rem double rgb(158, 10, 10);
+  border-bottom : 2rem double rgb(158, 10, 10);
+}     
+ aside {
+  width : 20%;
+  float : right;
+  background-color: rgb(158, 207, 252);
+}
+ footer {
+  clear : both;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.842) 5%, white 66.6%,blue 100%); 
+}
+      
+  #biography{
+    width : 70%;
+    float : left;
+  
+  }
+  .blockquote{
+    text-wrap: image;
+  }
+  #image{
+    width : 30%;
+    float : right;
+  }
+  image h2{
+    font-size: 15px;
+    margin: 1%;
+    padding: 1%;
+  }
+  #quotes{
+    clear : none; 
+    font-size: 10px;   
+  }
+  .main-section{
+    font-weight: lighter;
+    color: red; 
+}
+
+/* Desigen elements */
+a:hover{ 
+  color:rgb(233, 4, 195); 
+  text-decoration: underline;
+} 
+/*selected link*/
+a:active{ color:
+  blue; 
+} 
+ul{
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+ol{
+  list-style-type: lower-alpha;
+  list-style-type: upper-roman;
+}
+figure{
+  padding : 0.5rem;
+  border: 0.5rem solid rgb(153, 11, 11); 
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255) 
+}
+figcaption{
+  
+  text-align: center;
+  font-size: 10px;
+  
+} 
+figure img{
+  margin: 1rem;
+  width : 100%;
+  height : 90%;
+  display : block;
+  position: static;
+  float: right;
+  margin : auto;
+  border : 1rem rgb(158, 10, 10);
+  border-radius: 1rem;
+}
+
+q{
+  font-variant: small-caps;
+  box-shadow: .5rem .5rem .25rem .25rem rgb(228, 227, 227);
+  font-size: 15px;
+}
+cite{
+  font-size: 15px;
+  color:rgb(31, 3, 31);
+}
+
+/* Screen size and variability adjustments */
+@media (max-width : 600px) {
+  html{
+    font-size : 15px;
+  }
+  #biography{
+    float : none;
+    width : 100%;
+  }
+  #image{
+    float : none;
+    width : 100%;
+  }
+  main{
+    float : none; 
+    width : 95%;
+  }
+  aside{
+    float : none;
+    width : 95%;
+    text-align: center;
+  }
+}  
+  
+  
+    
